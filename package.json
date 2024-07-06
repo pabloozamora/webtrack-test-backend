@@ -1,0 +1,26 @@
+{
+  "name": "webtrack-test-backend",
+  "version": "1.0.0",
+  "description": "Prueba de conocimientos WebTrack - backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloozamora/webtrack-test-backend.git"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloozamora/webtrack-test-backend/issues"
+  },
+  "homepage": "https://github.com/pabloozamora/webtrack-test-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mssql": "^11.0.1",
+    "pg": "^8.12.0"
+  }
+}
